@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Vue 3 新特性实验室">
+  <!-- 与站点品牌色一致：brand #06b6d4 → accent #7c3aed 渐变 -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06b6d4" />
+      <stop offset="1" stop-color="#7c3aed" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)" />
+  <!-- Vue 的 V 形标志：16px 下仍可辨识 -->
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 19 32 50l18-31" stroke-width="7" />
+    <path d="M24 19l8 14 8-14" stroke-width="5" opacity="0.75" />
+  </g>
+</svg>
